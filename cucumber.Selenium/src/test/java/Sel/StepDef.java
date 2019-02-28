@@ -24,8 +24,8 @@ public class StepDef {
 	@Before
 	public void beforeScenario(Scenario scenario)
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\a.l.subramanian\\Downloads\\chromedriver_win32\\chromedriver.exe");
-		driver=new ChromeDriver();
+		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\a.l.subramanian\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		//driver=new ChromeDriver();
 		PageFactory.initElements(driver,LoginPages.class);
 	}
 	@After
